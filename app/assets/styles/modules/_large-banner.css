@@ -1,37 +1,68 @@
 .large-banner {
   position: relative;
+  border-bottom: 10px solid $mainBlue;
 
   &__text-content {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 7%;
-    width: 38rem;
+    left: 0;
+    width: 100%;
     text-align: center;
+
+    @mixin atLarge {
+      width: 38rem;
+      left: 10%;
+    }
+
   }
 
   &__title {
     color: $mainBlue;
-    font-size: 4.4rem;
+    font-size: 2.2rem;
     font-weight: 400;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
+
+    @mixin atSmall {
+      font-size: 4.4rem;
+    }
   }
 
   &__subtitle {
     color: $mainBlue;
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     margin: 0;
+
+    @mixin atSmall {
+      font-size: 2.5rem;
+    }
   }
 
   &__description {
     color: #FFF;
-    font-size: 1.7rem;
-    font-weight: 200;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .4);
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;;
+
+    @mixin atSmall {
+      font-size: 1.7rem;
+    }
   }
-/*
-  img {
-    opacity: 0.7;
-  }*/
+
+  &__image {
+    opacity: 0.65;
+    display: block;
+
+    @mixin atLarge {
+      opacity: 1;
+    }
+  }
+
+
+
 }
