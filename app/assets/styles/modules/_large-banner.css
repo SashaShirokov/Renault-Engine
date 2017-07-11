@@ -1,0 +1,37 @@
+.large-banner {
+  position: relative;
+
+  &__text-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 7%;
+    width: 37.5rem;
+    text-align: center;
+  }
+
+  &__title {
+    color: $mainBlue;
+    font-size: 4.4rem;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+  }
+
+  &__subtitle {
+    color: $mainBlue;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  &__description {
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 200;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
+  }
+/*
+  img {
+    opacity: 0.7;
+  }*/
+}
