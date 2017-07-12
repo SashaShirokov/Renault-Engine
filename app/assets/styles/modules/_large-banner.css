@@ -3,12 +3,17 @@
   border-bottom: 10px solid $mainBlue;
 
   &__text-content {
+    padding-top: 88px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
     width: 100%;
     text-align: center;
+
+    @mixin atMedium {
+      padding-top: 60px;
+    }
 
     @mixin atLarge {
       width: 38rem;
@@ -47,7 +52,6 @@
     max-width: 28rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
 
     @mixin atSmall {
       font-size: 1.7rem;
@@ -55,7 +59,7 @@
   }
 
   &__image {
-    opacity: 0.65;
+    opacity: 0.55;
     display: block;
 
     @mixin atLarge {
