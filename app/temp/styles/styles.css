@@ -570,7 +570,15 @@ a {
   background-color: #2f5572;
   padding: 0.75rem 1.2rem;
   display: inline-block;
+  margin-top: 7px;
 }
+
+@media (min-width: 800px) {
+
+.btn {
+    margin-top: 0
+}
+  }
 
 .btn--orange {
     background-color: #d59541;
@@ -1094,7 +1102,7 @@ a {
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
     background-color: #2f5572;
-    padding: 25px 36px;
+    padding: 15px 24px 15px 34px;
   }
 
 @media (min-width: 800px) {
@@ -1106,8 +1114,8 @@ a {
   }
 
       .site-header--dark  .site-header__logo {
-        -webkit-transform: scale(.56);
-                transform: scale(.56);
+        -webkit-transform: scale(.51);
+                transform: scale(.51);
       }
   }
 
