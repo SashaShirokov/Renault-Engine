@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
   <title>Renault-Engine</title>
   <meta name="keywords" content="Travel planning, test, travel bundles, travel escapes, affordable travel">
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
@@ -20,7 +19,7 @@
       </div>
       <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-          <a href="#" class="btn">Контакты</a>
+          <a href="#" class="btn open-modal">Контакты</a>
         </div>
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
@@ -45,7 +44,7 @@
         <h1 class="large-banner__title">Сердце машины.</h1>
         <h2 class="large-banner__subtitle">Открой второе дыхание.</h2>
         <p class="large-banner__description">Поставь новый двигатель. Вдохни в машину новую жизнь.</p>
-        <p><a href="#" class="btn btn--orange btn--large">Начни сегодня</a></p>
+        <p><a href="#" class="btn btn--orange btn--large open-modal">Начни сегодня</a></p>
       </div>
     </div>
   </div>
@@ -153,9 +152,26 @@
 
   <footer class="site-footer">
     <div class="wrapper">
-      <p><span class="site-footer__text">Copyright &copy; 2017 Renault Motors. Все права защищены.</span><a href="#" class="btn btn--orange">Контакты</a></p>
+      <p><span class="site-footer__text">Copyright &copy; 2017 Renault Motors. Все права защищены.</span><a href="#" class="btn btn--orange open-modal">Контакты</a></p>
     </div>
   </footer>
+
+  <div class="modal">
+    <div class="modal__inner">
+      <h2 class="section-title section-title--blue section-title--less-margin"><img class="section-title__icon" src="assets/images/icons/mail.svg">Контакты</h2>
+      <div class="wrapper wrapper--narrow">
+        <p class="modal__description">Свяжитесь с нами с помощью одной из следующих платформ.</p>
+      </div>
+
+      <div class="social-icons">
+          <a href="#" class="social-icons__icon"><img class="icon" src="assets/images/icons/facebook.svg"></img></a>
+          <a href="#" class="social-icons__icon"><img class="icon" src="assets/images/icons/twitter.svg"></img></a>
+          <a href="#" class="social-icons__icon"><img class="icon" src="assets/images/icons/youtube.svg"></img></a>
+          <a href="#" class="social-icons__icon"><img class="icon" src="assets/images/icons/instagram.svg"></img></a>
+      </div>
+    </div>
+    <div class="modal__close">X</div>
+  </div>
 
   <script src="temp/scripts/App.js"></script>
 
