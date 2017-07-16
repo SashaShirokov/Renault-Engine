@@ -698,11 +698,10 @@ a {
   }
 
 @media (min-width: 1010px) {
-
-.page-section--team {
-      background: url('/assets/images/team.jpg') top center no-repeat;
-      background-size: cover
-  }
+      .page-section--team.lazyloaded {
+        background: url('/assets/images/team.jpg') top center no-repeat;
+        background-size: cover;
+      }
   }
 
 .headline {
@@ -863,14 +862,14 @@ a {
 
 @media (min-width: 800px) {
 
-.row--equal-height-at-medium {
+.flexbox .row--equal-height-at-medium {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
   }
   }
 
-.row--equal-height-at-medium > div {
+.flexbox .row--equal-height-at-medium > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -879,14 +878,14 @@ a {
 
 @media (min-width: 1010px) {
 
-.row--equal-height-at-large {
+.flexbox .row--equal-height-at-large {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
   }
   }
 
-.row--equal-height-at-large > div {
+.flexbox .row--equal-height-at-large > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1123,10 +1122,14 @@ a {
   }
 
       .site-header--dark  .site-header__logo {
-        -webkit-transform: scale(.51);
-                transform: scale(.51);
+        -webkit-transform: scale(.52);
+                transform: scale(.52);
       }
   }
+
+.site-header__logo__graphic {
+		text-indent: -9999px;
+	}
 
 .site-header__menu-icon {
     width: 20px;
@@ -1421,89 +1424,93 @@ a {
 Instead edit gulp/templates/sprite  */
 
 .icon {
-      background-image: url('/assets/images/sprites/sprite-5dd056f2.svg');
+      background-image: url('/assets/images/sprites/sprite-b6a81ebb.svg');
+    }
+
+.no-svg .icon {
+      background-image: url('/assets/images/sprites/sprite-b6a81ebb.png');
     }
 
 .icon--clear-view-escapes {
-    width: 142.4px;
-    height: 59.53px;
-    background-position: 0 45.853040968248344%;
+    width: 144.4px;
+    height: 61.53px;
+    background-position: 0 45.485821005553646%;
   }
 
 .icon--comment {
-    width: 64px;
-    height: 64px;
-    background-position: 73.89558232931726% 77.75958549222798%;
+    width: 66px;
+    height: 66px;
+    background-position: 99.89723320158103% 0;
   }
 
 .icon--facebook {
-    width: 21.23px;
-    height: 42.01px;
-    background-position: 99.65178051204717% 79.10135355132796%;
+    width: 23.23px;
+    height: 44.01px;
+    background-position: 76.74206308956285% 41.52224082537671%;
   }
 
 .icon--fire {
-    width: 56px;
-    height: 64px;
-    background-position: 0 77.75958549222798%;
+    width: 58px;
+    height: 66px;
+    background-position: 0 77.42713567839195%;
   }
 
 .icon--globe {
-    width: 64px;
-    height: 64px;
-    background-position: 22.48995983935743% 77.75958549222798%;
+    width: 66px;
+    height: 66px;
+    background-position: 22.92490118577075% 77.42713567839195%;
   }
 
 .icon--instagram {
-    width: 42.01px;
-    height: 42.01px;
-    background-position: 91.79084099044245% 79.10135355132796%;
+    width: 44.01px;
+    height: 44.01px;
+    background-position: 0 99.58821666138739%;
   }
 
 .icon--mail {
-    width: 64px;
-    height: 48px;
-    background-position: 63.84899598393575% 42.94736842105263%;
+    width: 66px;
+    height: 50px;
+    background-position: 63.62845849802371% 42.67906976744186%;
   }
 
 .icon--rain {
-    width: 64px;
-    height: 64px;
-    background-position: 99.89718875502008% 0;
+    width: 66px;
+    height: 66px;
+    background-position: 99.89723320158103% 33.165829145728644%;
   }
 
 .icon--rain2 {
-    width: 89.76px;
-    height: 89.76px;
-    background-position: 71.21662784447231% 0;
+    width: 91.76px;
+    height: 91.76px;
+    background-position: 70.84140116176728% 0;
   }
 
 .icon--renault {
-    width: 158.984px;
-    height: 90.546px;
+    width: 160.98px;
+    height: 92.55px;
     background-position: 0 0;
   }
 
 .icon--star {
-    width: 64px;
-    height: 64px;
-    background-position: 48.19277108433735% 77.75958549222798%;
+    width: 66px;
+    height: 66px;
+    background-position: 49.01185770750988% 77.42713567839195%;
   }
 
 .icon--twitter {
-    width: 51.78px;
-    height: 42.06px;
-    background-position: 95.22394916162621% 59.55150274495208%;
+    width: 53.78px;
+    height: 44.06px;
+    background-position: 71.63863961993816% 69.7383905132615%;
   }
 
 .icon--wifi {
-    width: 60px;
-    height: 64px;
-    background-position: 98.31778656126482% 33.16062176165803%;
+    width: 62px;
+    height: 66px;
+    background-position: 98.34241245136187% 66.33165829145729%;
   }
 
 .icon--youtube {
-    width: 34.75px;
-    height: 42px;
-    background-position: 0 99.57023255813955%;
+    width: 36.75px;
+    height: 44px;
+    background-position: 15.592559787422498% 99.58371040723982%;
   }
