@@ -25,6 +25,7 @@
   }
 
   &__description {
+    margin-top: 0;
     text-align: center;
     font-size: 1.3rem;
     font-weight: 300;
