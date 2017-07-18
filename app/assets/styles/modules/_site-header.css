@@ -6,7 +6,7 @@
   transition: background-color .3s ease-out;
 
   &--is-expanded {
-    background-color: rgba($mainBlue, .55);
+    background-color: rgba($mainBlue, .6);
   }
 
   @mixin atMedium {

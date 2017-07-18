@@ -1204,7 +1204,7 @@ a {
 }
 
 .site-header--is-expanded {
-    background-color: rgba(47,85,114, .55);
+    background-color: rgba(47,85,114, .6);
   }
 
 @media (min-width: 767px) {
@@ -1415,6 +1415,7 @@ a {
 
 .primary-nav li:last-child {
     padding-right: 0;
+    margin-top: 8px;
   }
 
 @media (min-width: 767px) {
@@ -1431,7 +1432,7 @@ a {
     display: block;
     padding: 5px 8px;
     font-size: 0.9rem;
-    background-color: rgba(47,85,114, .5);
+    background-color: rgba(47,85,114, .6);
   }
 
 @media (min-width: 767px) {
