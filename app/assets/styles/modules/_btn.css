@@ -3,9 +3,14 @@
   text-decoration: none;
   text-transform: uppercase;
   background-color: $mainBlue;
+  border-radius: 4px;
   padding: 0.75rem 1.2rem;
   display: inline-block;
   margin-top: 7px;
+
+  &:hover {
+    background: linear-gradient(to top, $mainBlue , rgba(#1F81B6, .5));
+  }
 
   @mixin atMedium {
     margin-top: 0;
@@ -15,8 +20,11 @@
     background-color: $mainOrange;
   }
 
-  &--large {
+  &--orange:hover {
+    background: linear-gradient(to top, $mainOrange , #FFA100);
+  }
 
+  &--large {
     padding: 1.1rem 1.9rem;
 
     @mixin atSmall {

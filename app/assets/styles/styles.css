@@ -1,10 +1,13 @@
+/* 3rd party packages */
 @import "normalize.css";
 @import "slick-carousel/slick/slick.css";
 
-
+/* SASS and Global'ish Stuff */
 @import "base/_variables";
 @import "base/_mixins";
 @import "base/_global";
+
+/* BEM Blocks */
 @import "modules/_large-banner";
 @import "modules/_btn";
 @import "modules/_wrapper";
