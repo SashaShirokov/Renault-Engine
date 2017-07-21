@@ -1,20 +1,35 @@
 .event-summary {
   position: relative;
-  padding-left: 107px;
   min-height: 77px;
   padding-bottom: 1px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+
+  @mixin atSmall {
+    padding-left: 107px;
+    margin-bottom: 20px;
+  }
 
   &__title a {
     color: #173f58;
+    /*text-decoration: none;*/
+  }
+
+  &__title {
+    margin-bottom: .8rem;
+    margin-top: .7em;
+    text-align: center;
+
+    @mixin atSmall {
+      margin-bottom: 0;
+      margin-top: 0;
+      text-align: left;
+    }
   }
 
   &__date {
     text-decoration: none;
     display: block;
-    top: 0;
-    left: 0;
-    position: absolute;
+    margin: 0 auto;
     padding: 14px 0 11px 0;
     color: #FFF;
     border-radius: 50%;
@@ -23,6 +38,12 @@
     line-height: 1;
     transition: opacity .33s;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+
+    @mixin atSmall {
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
   }
 
   &__date:hover {

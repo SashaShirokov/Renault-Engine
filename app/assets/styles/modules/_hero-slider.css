@@ -6,10 +6,14 @@
 }
 
 .head-line {
-  margin: 0;
+  margin: 20px 0 40px 0;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
   color: $mainBlue;
+
+  @mixin atSmall {
+    margin: 0;
+  }
 
   &--large {
     font-size: 3.6rem;
@@ -36,8 +40,9 @@
   &--small-plus {
     font-family: 'Roboto', sans-serif;
     font-size: 1.687rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 1.9rem;
+    text-transform: uppercase;
   }
 
   &--small {
