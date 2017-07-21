@@ -28,7 +28,7 @@
   }
 
   &--light {
-    background-color: $beige;
+    padding: 0;
   }
 
   &--team {

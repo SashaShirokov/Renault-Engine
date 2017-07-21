@@ -13,6 +13,7 @@
 
   @mixin atSmall {
     margin: 0;
+    font-size: 1.8rem;
   }
 
   &--large {
@@ -40,9 +41,13 @@
   &--small-plus {
     font-family: 'Roboto', sans-serif;
     font-size: 1.687rem;
-    font-weight: 500;
-    margin-bottom: 1.9rem;
-    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+    font-size: 2.2rem;
+
+    @mixin atSmall {
+      font-size: 3rem;
+    }
   }
 
   &--small {
@@ -74,6 +79,10 @@
 
   &--white {
     color: #FFF;
+  }
+
+  img {
+    display: block;
   }
 }
 

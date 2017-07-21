@@ -670,7 +670,7 @@ a:hover {
     color: #FFF;
   }
 .page-section--light {
-    background-color: #FAF0CA;
+    padding: 0;
   }
 .page-section--team {
     background-color: #e0e6ef;
@@ -840,7 +840,7 @@ a:hover {
     }
 .generic-content-container p {
     font-weight: 300;
-    line-height: 1.65;
+    line-height: 1.5;
     margin: 0 0 1.8rem 0;
   }
 @media (min-width: 530px) {
@@ -853,7 +853,7 @@ a:hover {
   }
 .section-title {
   font-size: 2.2rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 }
 @media (min-width: 530px) {
@@ -909,7 +909,7 @@ a:hover {
   }
 .feature-item__title {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: .8rem;
     margin-top: .7em;
     text-align: center;
@@ -1375,7 +1375,8 @@ Instead edit gulp/templates/sprite  */
 }
 @media (min-width: 530px) {
 .head-line {
-    margin: 0
+    margin: 0;
+    font-size: 1.8rem
 }
   }
 .head-line--large {
@@ -1402,9 +1403,14 @@ Instead edit gulp/templates/sprite  */
 .head-line--small-plus {
     font-family: 'Roboto', sans-serif;
     font-size: 1.687rem;
-    font-weight: 500;
-    margin-bottom: 1.9rem;
-    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+    font-size: 2.2rem;
+  }
+@media (min-width: 530px) {
+.head-line--small-plus {
+      font-size: 3rem
+  }
   }
 .head-line--small {
     font-size: 1.2rem;
@@ -1432,6 +1438,9 @@ Instead edit gulp/templates/sprite  */
   }
 .head-line--white {
     color: #FFF;
+  }
+.head-line img {
+    display: block;
   }
 .t-center {text-align: center}
 .no-margin {margin: 0}
@@ -1538,12 +1547,15 @@ Instead edit gulp/templates/sprite  */
     margin-bottom: .8rem;
     margin-top: .7em;
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
   }
 @media (min-width: 530px) {
 .event-summary__title {
       margin-bottom: 0;
       margin-top: 0;
-      text-align: left
+      text-align: left;
+      font-size: 1.8rem
   }
   }
 .event-summary__date {
