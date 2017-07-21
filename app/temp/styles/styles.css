@@ -1524,8 +1524,7 @@ Instead edit gulp/templates/sprite  */
 }
 @media (min-width: 530px) {
 .event-summary {
-    padding-left: 107px;
-    margin-bottom: 20px
+    padding-left: 107px
 }
   }
 .event-summary__title a {

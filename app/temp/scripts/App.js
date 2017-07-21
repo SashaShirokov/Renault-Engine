@@ -11130,7 +11130,9 @@ var mobileMenu = new _MobileMenu2.default();
 // 3rd party packages from NPM
 
 new _RevealOnScroll2.default((0, _jquery2.default)('.feature-item'), '85%');
+new _RevealOnScroll2.default((0, _jquery2.default)('.event-summary'), '85%');
 new _RevealOnScroll2.default((0, _jquery2.default)('.team'), '60%');
+
 var stickeHeader = new _StickyHeader2.default();
 var modal = new _Modal2.default();
 var heroSlider = new _HeroSlider2.default();
