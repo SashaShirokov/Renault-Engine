@@ -15,3 +15,7 @@ img {
 a {
   color: $mainOrange;
 }
+
+a:hover {
+  text-decoration: none;
+}

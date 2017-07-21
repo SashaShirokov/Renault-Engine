@@ -484,6 +484,9 @@ img {
 a {
   color: #d59541;
 }
+a:hover {
+  text-decoration: none;
+}
 /* BEM Blocks */
 .large-banner {
   position: relative;
@@ -596,7 +599,7 @@ a {
   overflow: hidden;
   padding-left: 18px;
   padding-right: 18px;
-  max-width: 1236px;
+  max-width: 1336px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1365,6 +1368,7 @@ Instead edit gulp/templates/sprite  */
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
+  color: #2f5572;
 }
 .head-line--large {
     font-size: 3.6rem;
@@ -1389,7 +1393,7 @@ Instead edit gulp/templates/sprite  */
   }
 .head-line--small-plus {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.6875rem;
+    font-size: 1.687rem;
     font-weight: 400;
     margin-bottom: 1.9rem;
   }
@@ -1417,14 +1421,20 @@ Instead edit gulp/templates/sprite  */
 .head-line--post-title a:hover {
     text-decoration: underline;
   }
+.head-line--white {
+    color: #FFF;
+  }
 .t-center {text-align: center}
 .no-margin {margin: 0}
 .container:before,
-.container:after {
+.container:after,
+.group:before,
+.group:after {
   content: " ";
   display: table;
 }
-.container:after {
+.container:after,
+.group:after {
   clear: both;
 }
 .hero-slider {
@@ -1500,3 +1510,86 @@ Instead edit gulp/templates/sprite  */
 .slick-dots .slick-active button {
     background-color: #FFF;
   }
+.event-summary {
+  position: relative;
+  padding-left: 107px;
+  min-height: 77px;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+}
+.event-summary__title a {
+    color: #173f58;
+  }
+.event-summary__date {
+    text-decoration: none;
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 14px 0 11px 0;
+    color: #FFF;
+    border-radius: 50%;
+    background-color: #2f5572;
+    width: 80px;
+    line-height: 1;
+    -webkit-transition: opacity .33s;
+    transition: opacity .33s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+  }
+.event-summary__date:hover {
+    opacity: .75;
+  }
+.event-summary__date--beige {
+    background-color: #F4D35E;
+  }
+.event-summary__month {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+.event-summary__day {
+    display: block;
+    font-size: 2.02rem;
+    font-weight: 700;
+  }
+@media (min-width: 767px) {
+.full-width-split {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+  }
+.full-width-split__one {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 1.6rem 16px;
+  }
+@media (min-width: 767px) {
+.full-width-split__one {
+      padding: 40px
+  }
+  }
+@media (min-width: 767px) {
+.full-width-split__one .full-width-split__inner {
+        float: right
+    }
+  }
+.full-width-split__two {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-color: #FAF0CA;
+    padding: 1.6rem 16px;
+  }
+@media (min-width: 767px) {
+.full-width-split__two {
+      padding: 40px
+  }
+  }
+@media (min-width: 1350px) {
+.full-width-split__inner {
+      width: 610px
+  }
+    }
