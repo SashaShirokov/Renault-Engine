@@ -669,6 +669,9 @@ a:hover {
     background-color: #2f5572;
     color: #FFF;
   }
+.page-section--light {
+    background-color: #FAF0CA;
+  }
 .page-section--team {
     background-color: #e0e6ef;
   }
