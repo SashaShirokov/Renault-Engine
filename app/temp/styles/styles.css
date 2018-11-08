@@ -409,6 +409,8 @@ template {
     left: 0;
 
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .slick-track:before,
 .slick-track:after
@@ -562,7 +564,7 @@ a:hover {
   }
   }
 .btn {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   background-color: #2f5572;
@@ -1286,10 +1288,10 @@ a:hover {
 /* Do not edit modules/_sprite directly as it is generated automaticly by Gulp
 Instead edit gulp/templates/sprite  */
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-b6a81ebb.svg');
+      background-image: url('../../assets/images/sprites/sprite-f3917f3f.svg');
     }
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-b6a81ebb.png');
+      background-image: url('../../assets/images/sprites/sprite-f3917f3f.png');
     }
 .icon--clear-view-escapes {
     width: 144.4px;
