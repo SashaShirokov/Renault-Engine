@@ -568,7 +568,7 @@ a:hover {
   text-decoration: none;
   text-transform: uppercase;
   background-color: #2f5572;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 0.75rem 1.2rem;
   display: inline-block;
   margin-top: 7px;
@@ -1018,8 +1018,9 @@ a:hover {
     transition: transform .3s ease-out, -webkit-transform .3s ease-out;
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
+    border-radius: 8px;
     background-color: #2f5572;
-    padding: 15px 24px 15px 34px;
+    padding: 14px 0px 15px 35px;
   }
 @media (min-width: 767px) {
 .site-header__logo {
@@ -1288,10 +1289,10 @@ a:hover {
 /* Do not edit modules/_sprite directly as it is generated automaticly by Gulp
 Instead edit gulp/templates/sprite  */
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-1c1a1c26.svg');
+      background-image: url('../../assets/images/sprites/sprite-95451031.svg');
     }
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-1c1a1c26.png');
+      background-image: url('../../assets/images/sprites/sprite-95451031.png');
     }
 .icon--clear-view-escapes {
     width: 144.4px;

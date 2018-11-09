@@ -34,8 +34,9 @@
     transform: translateX(-50%) scale(.8);
     transition: transform .3s ease-out;
     transform-origin: 50% 0;
+    border-radius: 8px;
     background-color: $mainBlue;
-    padding: 15px 24px 15px 34px;
+    padding: 14px 0px 15px 35px;
 
     @mixin atMedium {
       left: auto;

@@ -2,11 +2,11 @@
 Instead edit gulp/templates/sprite  */
 
     .icon {
-      background-image: url('../../assets/images/sprites/sprite-1c1a1c26.svg');
+      background-image: url('../../assets/images/sprites/sprite-95451031.svg');
     }
 
     .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-1c1a1c26.png');
+      background-image: url('../../assets/images/sprites/sprite-95451031.png');
     }
 
   .icon--clear-view-escapes {
