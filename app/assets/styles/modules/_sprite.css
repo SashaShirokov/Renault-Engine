@@ -2,93 +2,93 @@
 Instead edit gulp/templates/sprite  */
 
     .icon {
-      background-image: url('../../assets/images/sprites/sprite-f3917f3f.svg');
+      background-image: url('../../assets/images/sprites/sprite-1c1a1c26.svg');
     }
 
     .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-f3917f3f.png');
+      background-image: url('../../assets/images/sprites/sprite-1c1a1c26.png');
     }
 
   .icon--clear-view-escapes {
     width: 144.4px;
     height: 61.53px;
-    background-position: 0 45.485821005553646%;
+    background-position: 0 45.461247358332926%;
   }
 
   .icon--comment {
     width: 66px;
     height: 66px;
-    background-position: 99.89723320158103% 0;
+    background-position: 99.90513833992095% 0;
   }
 
   .icon--facebook {
     width: 23.23px;
     height: 44.01px;
-    background-position: 76.74206308956285% 41.52224082537671%;
+    background-position: 76.74882510058492% 41.52224082537671%;
   }
 
   .icon--fire {
     width: 58px;
     height: 66px;
-    background-position: 0 77.42713567839195%;
+    background-position: 0 77.40201005025126%;
   }
 
   .icon--globe {
     width: 66px;
     height: 66px;
-    background-position: 22.92490118577075% 77.42713567839195%;
+    background-position: 22.92490118577075% 77.40201005025126%;
   }
 
   .icon--instagram {
     width: 44.01px;
     height: 44.01px;
-    background-position: 0 99.58821666138739%;
+    background-position: 0 99.56559120322186%;
   }
 
   .icon--mail {
     width: 66px;
     height: 50px;
-    background-position: 63.62845849802371% 42.67906976744186%;
+    background-position: 63.63636363636363% 42.67906976744186%;
   }
 
   .icon--rain {
     width: 66px;
     height: 66px;
-    background-position: 99.89723320158103% 33.165829145728644%;
+    background-position: 99.90513833992095% 33.165829145728644%;
   }
 
   .icon--rain2 {
     width: 91.76px;
     height: 91.76px;
-    background-position: 70.84140116176728% 0;
+    background-position: 70.85020242914979% 0;
   }
 
   .icon--renault {
-    width: 160.98px;
-    height: 92.55px;
+    width: 161px;
+    height: 92.5px;
     background-position: 0 0;
   }
 
   .icon--star {
     width: 66px;
     height: 66px;
-    background-position: 49.01185770750988% 77.42713567839195%;
+    background-position: 49.01185770750988% 77.40201005025126%;
   }
 
   .icon--twitter {
     width: 53.78px;
     height: 44.06px;
-    background-position: 71.63863961993816% 69.7383905132615%;
+    background-position: 71.63863961993816% 69.71575993482394%;
   }
 
   .icon--wifi {
     width: 62px;
     height: 66px;
-    background-position: 98.34241245136187% 66.33165829145729%;
+    background-position: 98.35019455252919% 66.33165829145729%;
   }
 
   .icon--youtube {
     width: 36.75px;
     height: 44px;
-    background-position: 15.592559787422498% 99.58371040723982%;
+    background-position: 15.592559787422498% 99.56108597285068%;
   }

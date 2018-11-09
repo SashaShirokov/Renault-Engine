@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
-	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
-]>
-<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="158.984" height="90.546"
-	 viewBox="0 0 158.984 90.546" overflow="visible" enable-background="new 0 0 158.984 90.546" xml:space="preserve">
-<text transform="matrix(1.1693 0 0 1 13.8989 26.2393)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldItalicMT'" font-size="30.5939">Renault</tspan><tspan x="-11.886" y="48.95" fill="#FFFFFF" font-family="'Arial-BoldItalicMT'" font-size="40.7919">Motors</tspan></text>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 159 90.5" style="enable-background:new 0 0 159 90.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{font-family:'Arial-BoldItalicMT';}
+	.st2{font-size:30.5939px;}
+	.st3{font-size:40.7919px;}
+</style>
+<text transform="matrix(1.1693 0 0 1 13.8984 26.2393)" class="st0 st1 st2"> Motor</text>
+<text transform="matrix(1.1693 0 0 1 0 75.1895)" class="st0 st1 st3"> King</text>
 </svg>
