@@ -871,6 +871,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: .6rem;
+    border-radius: 8px;
   }
 @media (min-width: 530px) {
 .section-title__icon {
@@ -1265,6 +1266,7 @@ a:hover {
         background-color: #d59541;
         display: inline-block;
         margin: 0 5px 5px 5px;
+        border-radius: 8px;
         width: 33%;
         height: 70px;;
         position: relative;
@@ -1289,10 +1291,10 @@ a:hover {
 /* Do not edit modules/_sprite directly as it is generated automaticly by Gulp
 Instead edit gulp/templates/sprite  */
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-95451031.svg');
+      background-image: url('../../assets/images/sprites/sprite-67bf685f.svg');
     }
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-95451031.png');
+      background-image: url('../../assets/images/sprites/sprite-67bf685f.png');
     }
 .icon--clear-view-escapes {
     width: 144.4px;

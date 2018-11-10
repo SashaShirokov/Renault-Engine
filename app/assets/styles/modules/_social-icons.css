@@ -5,6 +5,7 @@
         background-color: $mainOrange;
         display: inline-block;
         margin: 0 5px 5px 5px;
+        border-radius: 8px;
         width: 33%;
         height: 70px;;
         position: relative;
