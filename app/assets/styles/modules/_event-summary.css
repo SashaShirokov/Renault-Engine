@@ -10,7 +10,7 @@
 
   &__title a {
     color: #173f58;
-    /*text-decoration: none;*/
+    text-decoration: none;
   }
 
   &__title {

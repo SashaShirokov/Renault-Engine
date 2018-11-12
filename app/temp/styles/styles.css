@@ -1546,7 +1546,7 @@ Instead edit gulp/templates/sprite  */
   }
 .event-summary__title a {
     color: #173f58;
-    /*text-decoration: none;*/
+    text-decoration: none;
   }
 .event-summary__title {
     margin-bottom: .8rem;
