@@ -6,17 +6,32 @@
 	.st0{fill:url(#SVGID_1_);}
 </style>
 <title>wifi</title>
-<radialGradient id="SVGID_1_" cx="29.9993" cy="31.9997" r="57.6589" fx="4.2751" fy="32.1353" gradientUnits="userSpaceOnUse">
-	<stop  offset="2.703062e-02" style="stop-color:#FFFFFF"/>
-	<stop  offset="4.420806e-02" style="stop-color:#F6EAD8"/>
+<radialGradient id="SVGID_1_" cx="31.2082" cy="54.9355" r="56.1342" fx="31.4187" fy="104.9431" gradientUnits="userSpaceOnUse">
 	<stop  offset="6.383170e-02" style="stop-color:#EED6B4"/>
 	<stop  offset="8.591752e-02" style="stop-color:#E7C494"/>
 	<stop  offset="0.1103" style="stop-color:#E1B578"/>
-	<stop  offset="0.1379" style="stop-color:#DCA962"/>
-	<stop  offset="0.1701" style="stop-color:#D9A051"/>
-	<stop  offset="0.2099" style="stop-color:#D69A46"/>
-	<stop  offset="0.2657" style="stop-color:#D4963F"/>
-	<stop  offset="0.4207" style="stop-color:#D4953D"/>
+	<stop  offset="0.3828" style="stop-color:#DCA962"/>
+	<stop  offset="0.4049" style="stop-color:#DBA55B"/>
+	<stop  offset="0.436" style="stop-color:#D69C49"/>
+	<stop  offset="0.4494" style="stop-color:#D4963F"/>
+	<stop  offset="0.4717" style="stop-color:#DDAC66"/>
+	<stop  offset="0.4959" style="stop-color:#E4BF89"/>
+	<stop  offset="0.5217" style="stop-color:#EBCEA6"/>
+	<stop  offset="0.5491" style="stop-color:#F0DBBC"/>
+	<stop  offset="0.5789" style="stop-color:#F3E3CC"/>
+	<stop  offset="0.6128" style="stop-color:#F5E8D5"/>
+	<stop  offset="0.6599" style="stop-color:#F6EAD8"/>
+	<stop  offset="0.763" style="stop-color:#D69A46"/>
+	<stop  offset="0.7668" style="stop-color:#DDAA64"/>
+	<stop  offset="0.7724" style="stop-color:#E5BE88"/>
+	<stop  offset="0.7787" style="stop-color:#ECD0A8"/>
+	<stop  offset="0.7856" style="stop-color:#F2DFC4"/>
+	<stop  offset="0.7935" style="stop-color:#F7EBDA"/>
+	<stop  offset="0.8026" style="stop-color:#FAF4EB"/>
+	<stop  offset="0.8139" style="stop-color:#FDFAF6"/>
+	<stop  offset="0.8298" style="stop-color:#FFFEFD"/>
+	<stop  offset="0.8738" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#D4953D"/>
 </radialGradient>
 <path class="st0" d="M29.9,0C20.7,0,11.7,2.3,3.7,6.6c-2,1.1-2.7,3.6-1.5,5.6l0,0c1.1,1.7,3.3,2.3,5,1.3c7-3.7,14.7-5.6,22.7-5.5
 	c8-0.1,15.9,1.8,22.9,5.5c1.7,0.9,3.9,0.3,5-1.3l0,0c1.2-1.9,0.6-4.5-1.5-5.6C48.2,2.2,39.1,0,29.9,0z M29.9,24
