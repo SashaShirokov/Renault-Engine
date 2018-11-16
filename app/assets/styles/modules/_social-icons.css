@@ -1,14 +1,18 @@
 .social-icons {
     text-align: center;
 
+
     &__icon {
         background-color: $mainOrange;
+        /* opacity: .9; */
         display: inline-block;
         margin: 0 5px 5px 5px;
         border-radius: 8px;
         width: 33%;
         height: 70px;;
         position: relative;
+        transition: all .3s ease-out;
+
 
         @mixin atSmall {
           width: 70px;
@@ -25,6 +29,7 @@
 
         &:hover {
             cursor: pointer;
+            background-color: $mainBlue;
         }
     }
 }

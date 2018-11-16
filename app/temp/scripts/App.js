@@ -14415,7 +14415,7 @@ var StickyHeader = function () {
 
     this.lazyImages = (0, _jquery2.default)('.lazyload');
     this.siteHeader = (0, _jquery2.default)('.site-header');
-    this.headerTriggerElement = (0, _jquery2.default)('.large-banner__title');
+    this.headerTriggerElement = (0, _jquery2.default)('.large-banner__subtitle');
     this.pageSections = (0, _jquery2.default)('.page-section');
     this.headerLinks = (0, _jquery2.default)('.primary-nav a');
     this.createHeaderWaypoint();
