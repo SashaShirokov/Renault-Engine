@@ -936,6 +936,7 @@ a:hover {
   background-color: rgba(255, 255, 255, .7);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
+  border-radius: 15px;
 }
 @media (min-width: 960px) {
 .team {
@@ -955,6 +956,7 @@ a:hover {
     position: relative;
     top: -80px;
     border: 6px solid rgba(255, 255, 255, .7);
+    border-color: #mainOrange;
   }
 .team__title {
     color: #1f4050;
@@ -974,7 +976,7 @@ a:hover {
   background-color: #1f4050;
   color: #FFF;
   padding: 0.5rem 0;
-  text-align: center;
+  text-align: left;
 }
 .site-footer__text {
     display: block;
