@@ -29,7 +29,8 @@
   }
 
   &--blue {
-    color: $mainBlue;
+    color: #fff;
+    padding-bottom: 1rem;
   }
 
   &--less-margin {

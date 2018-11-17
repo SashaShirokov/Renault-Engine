@@ -25,6 +25,10 @@
     margin-top: 30px;
   }
 
+  &--orange--blue {
+      bakcground-color: $mainBlue;
+  }
+
   &--orange:hover {
       color: #mainBlue;
     /* background: linear-gradient(to top, $mainOrange , #FFA100); */

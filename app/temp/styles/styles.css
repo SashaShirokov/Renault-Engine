@@ -592,6 +592,9 @@ a:hover {
     opacity: .8;
     margin-top: 30px;
   }
+.btn--orange--blue {
+      bakcground-color: #1f4050;
+  }
 .btn--orange:hover {
       color: #mainBlue;
     /* background: linear-gradient(to top, $mainOrange , #FFA100); */
@@ -892,7 +895,8 @@ a:hover {
   }
   }
 .section-title--blue {
-    color: #1f4050;
+    color: #fff;
+    padding-bottom: 1rem;
   }
 .section-title--less-margin {
     margin-bottom: 1.3rem;
@@ -1224,7 +1228,8 @@ a:hover {
 .modal {
   position: fixed;
   z-index: 5;
-  background-color: rgba(255, 255, 255, .94);
+  /* background-color: rgba(255, 255, 255, .94); */
+  background-color: #1f4050;
   top: 0;
   bottom: 0;
   left: 0;
@@ -1237,7 +1242,7 @@ a:hover {
   transition: all .3s ease-out;
 }
 .modal--is-visible {
-    opacity: 1;
+    opacity: .99;
     visibility: visible;
     -webkit-transform: scale(1);
             transform: scale(1);
@@ -1250,11 +1255,13 @@ a:hover {
             transform: translateY(-50%);
   }
 .modal__description {
+    color: #fff;
     margin-top: 0;
     text-align: center;
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.65;
+    padding-top: 1.5rem;
   }
 .modal__close {
     position: absolute;
@@ -1265,7 +1272,7 @@ a:hover {
             transform: scaleX(1.2);
     -webkit-transform-origin: 100% 0;
             transform-origin: 100% 0;
-    color: #1f4050;
+    color: #d59541;
     cursor: pointer;
   }
 .modal__close:hover {
