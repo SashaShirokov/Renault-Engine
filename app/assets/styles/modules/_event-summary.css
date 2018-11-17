@@ -4,6 +4,7 @@
   padding-bottom: 1px;
   margin-bottom: 40px;
 
+
   @mixin atSmall {
     padding-left: 107px;
   }
@@ -40,6 +41,8 @@
     line-height: 1;
     transition: opacity .33s;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+    background-color: $mainBlue;
+    transition: all .3s ease-out;
 
     @mixin atSmall {
       top: 0;
@@ -49,11 +52,19 @@
   }
 
   &__date:hover {
-    opacity: .75;
+    /* opacity: .75; */
+    color: $mainBlue;
+    background-color: $mainWhite;
   }
 
   &__date--beige {
-    background-color: $mainYellow;
+    background-color: $mainBlue;
+  }
+
+  &__date--beige:hover {
+    /* opacity: .75; */
+    /* color: $mainBlue; */
+    background-color: $mainOrange;
   }
 
   &__month {
