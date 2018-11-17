@@ -1245,7 +1245,7 @@ a:hover {
   transition: all .3s ease-out;
 }
 .modal--is-visible {
-    opacity: .99;
+    opacity: .95;
     visibility: visible;
     -webkit-transform: scale(1);
             transform: scale(1);
@@ -1617,6 +1617,8 @@ Instead edit gulp/templates/sprite  */
     /* opacity: .75; */
     color: #1f4050;
     background-color: #FFFFFF;
+    border: 1px solid;;
+    border-color: #mainBlue;
   }
 .event-summary__date--beige {
     background-color: #1f4050;
@@ -1625,6 +1627,8 @@ Instead edit gulp/templates/sprite  */
     /* opacity: .75; */
     /* color: $mainBlue; */
     background-color: #d59541;
+    border: 1px solid;;
+    border-color: #mainBlue;
   }
 .event-summary__month {
     display: block;

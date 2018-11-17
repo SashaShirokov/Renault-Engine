@@ -55,6 +55,8 @@
     /* opacity: .75; */
     color: $mainBlue;
     background-color: $mainWhite;
+    border: 1px solid;;
+    border-color: #mainBlue;
   }
 
   &__date--beige {
@@ -65,6 +67,8 @@
     /* opacity: .75; */
     /* color: $mainBlue; */
     background-color: $mainOrange;
+    border: 1px solid;;
+    border-color: #mainBlue;
   }
 
   &__month {
