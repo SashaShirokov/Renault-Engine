@@ -578,8 +578,9 @@ a:hover {
   opacity: .7;
 }
 .btn:hover {
-    background: -webkit-gradient(linear, left bottom, left top, from(#1f4050) , to(rgba(31,129,182, .5)));
-    background: linear-gradient(to top, #1f4050 , rgba(31,129,182, .5));
+    /* background: linear-gradient(to top, $mainBlue , rgba(#1F81B6, .5)); */
+    background-color: #1f4050;
+    opacity: .6;
 
   }
 @media (min-width: 767px) {

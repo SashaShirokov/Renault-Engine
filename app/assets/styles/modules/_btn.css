@@ -11,7 +11,9 @@
   opacity: .7;
 
   &:hover {
-    background: linear-gradient(to top, $mainBlue , rgba(#1F81B6, .5));
+    /* background: linear-gradient(to top, $mainBlue , rgba(#1F81B6, .5)); */
+    background-color: $mainBlue;
+    opacity: .6;
 
   }
 
